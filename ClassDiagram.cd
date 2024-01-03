@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="ConnectionController">
+    <Position X="0.5" Y="5.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AgQAAAAAAOAIBAAAACBAAABoAAAEAAADAAAAAQAAAAI=</HashCode>
+      <FileName>Assets\Scripts\ConnectionController.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="streamController" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="HideWindowBorder">
+    <Position X="0.5" Y="10" Width="3.5" />
+    <NestedTypes>
+      <Delegate Name="HideWindowBorder.EnumDelegate" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripts\HideWindowBorder.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>ACUCCDAAIAIRAAAEICCAAEEAAABADAAFIQAAAgQhAUI=</HashCode>
+      <FileName>Assets\Scripts\HideWindowBorder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Stream">
+    <Position X="15.5" Y="5.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAABAABAAA=</HashCode>
+      <FileName>Assets\Scripts\Stream.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="streamUI" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="StreamController">
+    <Position X="4.75" Y="5.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>IAACAAAAAIAAAAAAAAABAAAAAAAAAgAAAAIAAIAAAYA=</HashCode>
+      <FileName>Assets\Scripts\StreamController.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="uiController" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="VideoManager">
+    <Position X="8.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\StreamTransfer\Utils\VideoManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StreamUI">
+    <Position X="12" Y="5.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAADAGCAAAAAAAAQBAAAQAAAIAgAASAAAIAIAAAA=</HashCode>
+      <FileName>Assets\Scripts\StreamUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UIController">
+    <Position X="8.25" Y="5.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AQgBAAAAAAAAAAAgAAAARAAEEAAAAACAAAAAIIAAAIA=</HashCode>
+      <FileName>Assets\Scripts\UIController.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="currentUI" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="VoiceController">
+    <Position X="6.25" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAACAACAAAAAgAAAAAAAAAIAAAAAAAAAAAABAIAAAA=</HashCode>
+      <FileName>Assets\Scripts\VoiceController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TextureSendReceive._TextureSender">
+    <Position X="3.25" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>IAAAgBAAACAAAAJACAAAAAAgAAAwIIgCAAAAAAAQAAA=</HashCode>
+      <FileName>Assets\Scripts\StreamTransfer\NetworkTexture.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="encoding" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TextureSendReceive._TextureReceiver">
+    <Position X="0.5" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>oAAAABAAACAAAAAAAAAQBAAAIIAgAggAACAABAAAABA=</HashCode>
+      <FileName>Assets\Scripts\StreamTransfer\NetworkTexture.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="TextureSendReceive.Encoding">
+    <Position X="7" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAEAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\StreamTransfer\NetworkTexture.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
